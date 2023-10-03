@@ -10,7 +10,7 @@ def main():
     print("Computer Chose: " + computer)
 
     if player == computer:
-        print("Draw")
+        print("It's a Draw")
     elif player == "rock" and computer == "paper":
         print("Computer Wins")
     elif player == "rock" and computer == "scissors":
