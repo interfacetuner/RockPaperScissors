@@ -14,15 +14,15 @@ def main():
     elif player == "rock" and computer == "paper":
         print("Computer Wins")
     elif player == "rock" and computer == "scissors":
-        print("Player Wins")
+        print("You win")
     elif player == "paper" and computer == "rock":
-        print("Player Wins")
+        print("You win")
     elif player == "paper" and computer == "scissors":
         print("Computer Wins")
     elif player == "scissors" and computer  == "rock":
         print("Computer Wins")
     elif player == "scissors" and computer == "paper":
-        print("Player Wins")
+        print("You win")
     elif player == "end":
         StopIteration
 
